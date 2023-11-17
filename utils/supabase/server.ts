@@ -29,6 +29,9 @@ export const createClient = (cookieStore: ReturnType<typeof cookies>) => {
           }
         },
       },
+      auth: {
+        debug: true
+      }
     }
   )
 }

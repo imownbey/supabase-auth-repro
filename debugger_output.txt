@@ -1,0 +1,1661 @@
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.868Z #_acquireLock begin -1
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.870Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.870Z #_initialize() begin is PKCE flow false
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.870Z #_recoverAndRefresh() begin
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.870Z #onAuthStateChange() registered callback with id db6aa4d1-e5b3-42da-856b-0d482ae2a97d
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.871Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.872Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.872Z #_recoverAndRefresh() end
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #_handleVisibilityChange()
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #_initialize() end
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #_acquireLock end
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #_acquireLock begin -1
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #_useSession begin
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #__loadSession() begin
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #_acquireLock begin -1
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #_acquireLock end
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #_useSession begin
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #__loadSession() begin
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.873Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.874Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.874Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.875Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.937Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.937Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:08.937Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.063Z #_refreshAccessToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.064Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.064Z #_callRefreshToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.064Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.064Z #__loadSession() end
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.064Z #__loadSession() end
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.065Z INITIAL_SESSION callback id db6aa4d1-e5b3-42da-856b-0d482ae2a97d error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+ [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.066Z #_useSession end
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.066Z #_useSession end
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.066Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@45 (2.57.0) 2023-11-17T18:01:09.066Z #_acquireLock end
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.114Z #_acquireLock begin -1
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.115Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.115Z #_initialize() begin is PKCE flow false
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.115Z #_recoverAndRefresh() begin
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.116Z #onAuthStateChange() registered callback with id dc436295-0435-4cb9-a2fb-555411b720b1
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.117Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+    id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+    aud: 'authenticated',
+    role: 'authenticated',
+    email: 'imownbey2@gmail.com',
+    email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+    phone: '',
+    confirmed_at: '2023-11-17T17:47:06.726782Z',
+    last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+    app_metadata: { provider: 'email', providers: [Array] },
+    user_metadata: {},
+    identities: [ [Object] ],
+    created_at: '2023-11-17T17:47:06.71468Z',
+    updated_at: '2023-11-17T17:53:35.375862Z'
+  }
+}
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.118Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.118Z #_recoverAndRefresh() end
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.118Z #_handleVisibilityChange()
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.118Z #_initialize() end
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #_acquireLock end
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #_acquireLock begin -1
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #_useSession begin
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #__loadSession() begin
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+    id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+    aud: 'authenticated',
+    role: 'authenticated',
+    email: 'imownbey2@gmail.com',
+    email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+    phone: '',
+    confirmed_at: '2023-11-17T17:47:06.726782Z',
+    last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+    app_metadata: { provider: 'email', providers: [Array] },
+    user_metadata: {},
+    identities: [ [Object] ],
+    created_at: '2023-11-17T17:47:06.71468Z',
+    updated_at: '2023-11-17T17:53:35.375862Z'
+  }
+}
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.119Z #_acquireLock end
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.128Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.139Z #_acquireLock begin -1
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.139Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.139Z #_initialize() begin is PKCE flow false
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.139Z #_recoverAndRefresh() begin
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.139Z #onAuthStateChange() registered callback with id 6f22784e-48e2-469c-ac95-bba130460c83
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.156Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+    id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+    aud: 'authenticated',
+    role: 'authenticated',
+    email: 'imownbey2@gmail.com',
+    email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+    phone: '',
+    confirmed_at: '2023-11-17T17:47:06.726782Z',
+    last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+    app_metadata: { provider: 'email', providers: [Array] },
+    user_metadata: {},
+    identities: [ [Object] ],
+    created_at: '2023-11-17T17:47:06.71468Z',
+    updated_at: '2023-11-17T17:53:35.375862Z'
+  }
+}
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.156Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.157Z #_recoverAndRefresh() end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.157Z #_handleVisibilityChange()
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.157Z #_initialize() end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.157Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.157Z #_acquireLock end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.157Z #_acquireLock begin -1
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.157Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #_useSession begin
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #__loadSession() begin
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #_acquireLock begin -1
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #_acquireLock end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #_useSession begin
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #__loadSession() begin
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+    id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+    aud: 'authenticated',
+    role: 'authenticated',
+    email: 'imownbey2@gmail.com',
+    email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+    phone: '',
+    confirmed_at: '2023-11-17T17:47:06.726782Z',
+    last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+    app_metadata: { provider: 'email', providers: [Array] },
+    user_metadata: {},
+    identities: [ [Object] ],
+    created_at: '2023-11-17T17:47:06.71468Z',
+    updated_at: '2023-11-17T17:53:35.375862Z'
+  }
+}
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+    id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+    aud: 'authenticated',
+    role: 'authenticated',
+    email: 'imownbey2@gmail.com',
+    email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+    phone: '',
+    confirmed_at: '2023-11-17T17:47:06.726782Z',
+    last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+    app_metadata: { provider: 'email', providers: [Array] },
+    user_metadata: {},
+    identities: [ [Object] ],
+    created_at: '2023-11-17T17:47:06.71468Z',
+    updated_at: '2023-11-17T17:53:35.375862Z'
+  }
+}
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.158Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.172Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.188Z #_refreshAccessToken(gFtGZ...) error AuthApiError: Invalid Refresh Token: Already Used
+    at handleError (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:42:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _handleRequest (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:89:9)
+    at async _request (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:69:18)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/GoTrueClient.js:1426:24)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/helpers.js:194:36) {
+  __isAuthError: true,
+  status: 400
+}
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.203Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.203Z #_callRefreshToken(gFtGZ...) error AuthApiError: Invalid Refresh Token: Already Used
+    at handleError (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:42:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _handleRequest (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:89:9)
+    at async _request (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:69:18)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/GoTrueClient.js:1426:24)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/helpers.js:194:36) {
+  __isAuthError: true,
+  status: 400
+}
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.203Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.203Z #__loadSession() end
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.203Z INITIAL_SESSION callback id dc436295-0435-4cb9-a2fb-555411b720b1 error AuthApiError: Invalid Refresh Token: Already Used
+    at handleError (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:42:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _handleRequest (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:89:9)
+    at async _request (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:69:18)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/GoTrueClient.js:1426:24)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/helpers.js:194:36) {
+  __isAuthError: true,
+  status: 400
+}
+AuthApiError: Invalid Refresh Token: Already Used
+    at handleError (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:42:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _handleRequest (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:89:9)
+    at async _request (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:69:18)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/GoTrueClient.js:1426:24)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/helpers.js:194:36) {
+  __isAuthError: true,
+  status: 400
+}
+GoTrueClient@12 (2.57.0) 2023-11-17T18:01:09.203Z #_useSession end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.209Z #_refreshAccessToken(gFtGZ...) error AuthApiError: Invalid Refresh Token: Already Used
+    at handleError (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:42:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _handleRequest (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:89:9)
+    at async _request (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:69:18)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/GoTrueClient.js:1426:24)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/helpers.js:194:36) {
+  __isAuthError: true,
+  status: 400
+}
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.209Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.209Z #_callRefreshToken(gFtGZ...) error AuthApiError: Invalid Refresh Token: Already Used
+    at handleError (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:42:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _handleRequest (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:89:9)
+    at async _request (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:69:18)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/GoTrueClient.js:1426:24)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/helpers.js:194:36) {
+  __isAuthError: true,
+  status: 400
+}
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.210Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.210Z #__loadSession() end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.210Z #__loadSession() end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.210Z INITIAL_SESSION callback id 6f22784e-48e2-469c-ac95-bba130460c83 error AuthApiError: Invalid Refresh Token: Already Used
+    at handleError (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:42:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _handleRequest (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:89:9)
+    at async _request (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:69:18)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/GoTrueClient.js:1426:24)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/helpers.js:194:36) {
+  __isAuthError: true,
+  status: 400
+}
+AuthApiError: Invalid Refresh Token: Already Used
+    at handleError (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:42:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async _handleRequest (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:89:9)
+    at async _request (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/fetch.js:69:18)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/GoTrueClient.js:1426:24)
+    at async eval (webpack-internal:///(rsc)/./node_modules/@supabase/gotrue-js/dist/module/lib/helpers.js:194:36) {
+  __isAuthError: true,
+  status: 400
+}
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.210Z #_useSession end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.210Z #_useSession end
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.210Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@13 (2.57.0) 2023-11-17T18:01:09.210Z #_acquireLock end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.296Z #_acquireLock begin -1
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.296Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.296Z #_initialize() begin is PKCE flow false
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.296Z #_recoverAndRefresh() begin
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.296Z #onAuthStateChange() registered callback with id 00a197ac-8161-4b0f-b192-54627f339af5
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.297Z #_acquireLock begin -1
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.297Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.297Z #_initialize() begin is PKCE flow false
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.297Z #_recoverAndRefresh() begin
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.297Z #onAuthStateChange() registered callback with id 31a0ec49-7fd8-40c7-94c7-f19704705c2e
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.297Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.297Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.297Z #_recoverAndRefresh() end
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.297Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.297Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.297Z #_recoverAndRefresh() end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.297Z #_handleVisibilityChange()
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_handleVisibilityChange()
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_initialize() end
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_initialize() end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock end
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock begin -1
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_useSession begin
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #__loadSession() begin
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock begin -1
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock end
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock begin -1
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_useSession begin
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #__loadSession() begin
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock begin -1
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_acquireLock end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_useSession begin
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #__loadSession() begin
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_useSession begin
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #__loadSession() begin
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.298Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.298Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.300Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.304Z #_acquireLock begin -1
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.304Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.304Z #_initialize() begin is PKCE flow false
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.304Z #_recoverAndRefresh() begin
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.304Z #onAuthStateChange() registered callback with id 07c358a0-6ae3-4978-bf47-360e552ec623
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.304Z #_acquireLock begin -1
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.304Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.304Z #_initialize() begin is PKCE flow false
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.304Z #_recoverAndRefresh() begin
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.304Z #onAuthStateChange() registered callback with id e4766f0f-77ea-4168-9aed-26238ac38203
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock begin -1
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_initialize() begin is PKCE flow false
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_recoverAndRefresh() begin
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #onAuthStateChange() registered callback with id 47e5950c-afd1-4d20-8b62-73a16fbc0962
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_recoverAndRefresh() end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #_recoverAndRefresh() end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_recoverAndRefresh() end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_handleVisibilityChange()
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #_handleVisibilityChange()
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_handleVisibilityChange()
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_initialize() end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #_initialize() end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_initialize() end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock begin -1
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_useSession begin
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #__loadSession() begin
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock begin -1
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock begin -1
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #_useSession begin
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.305Z #__loadSession() begin
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.306Z #_acquireLock begin -1
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.306Z #_acquireLock end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.306Z #_acquireLock begin -1
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.306Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.306Z #_useSession begin
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.306Z #__loadSession() begin
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.311Z #_acquireLock begin -1
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.311Z #_acquireLock end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.311Z #_useSession begin
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.311Z #__loadSession() begin
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.311Z #_useSession begin
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.311Z #__loadSession() begin
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.312Z #_useSession begin
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.312Z #__loadSession() begin
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.312Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.312Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.312Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.312Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.312Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.312Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.312Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.312Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.312Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.312Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.312Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.312Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.313Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.313Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.313Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.313Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.313Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.313Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z #_refreshAccessToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z #_callRefreshToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z #__loadSession() end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z #__loadSession() end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z INITIAL_SESSION callback id 00a197ac-8161-4b0f-b192-54627f339af5 error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+ [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z #_useSession end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z #_useSession end
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@46 (2.57.0) 2023-11-17T18:01:09.315Z #_acquireLock end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.315Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.316Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.317Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.329Z #_refreshAccessToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.329Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.329Z #_callRefreshToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.330Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.330Z #__loadSession() end
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.330Z #__loadSession() end
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.330Z INITIAL_SESSION callback id 31a0ec49-7fd8-40c7-94c7-f19704705c2e error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+ [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.330Z #_useSession end
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.330Z #_useSession end
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.330Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@47 (2.57.0) 2023-11-17T18:01:09.330Z #_acquireLock end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.339Z #_acquireLock begin -1
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.339Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.339Z #_initialize() begin is PKCE flow false
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_recoverAndRefresh() begin
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #onAuthStateChange() registered callback with id f4a80412-2727-45cb-aae5-bb713d2b7a85
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_recoverAndRefresh() end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_handleVisibilityChange()
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_initialize() end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_acquireLock end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_acquireLock begin -1
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_useSession begin
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #__loadSession() begin
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_acquireLock begin -1
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_acquireLock end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_useSession begin
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #__loadSession() begin
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.340Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.341Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.341Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.343Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z #_refreshAccessToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z #_callRefreshToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z #__loadSession() end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z #__loadSession() end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z INITIAL_SESSION callback id 07c358a0-6ae3-4978-bf47-360e552ec623 error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+ [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z #_useSession end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z #_useSession end
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@48 (2.57.0) 2023-11-17T18:01:09.357Z #_acquireLock end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.368Z #_refreshAccessToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.369Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.369Z #_callRefreshToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.369Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.369Z #__loadSession() end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.369Z #__loadSession() end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.369Z INITIAL_SESSION callback id f4a80412-2727-45cb-aae5-bb713d2b7a85 error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+ [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.369Z #_useSession end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.369Z #_useSession end
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.369Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@51 (2.57.0) 2023-11-17T18:01:09.369Z #_acquireLock end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z #_refreshAccessToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z #_callRefreshToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z #__loadSession() end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z #__loadSession() end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z INITIAL_SESSION callback id e4766f0f-77ea-4168-9aed-26238ac38203 error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+ [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z #_useSession end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z #_useSession end
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@49 (2.57.0) 2023-11-17T18:01:09.386Z #_acquireLock end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z #_refreshAccessToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z #_callRefreshToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z #__loadSession() end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z #__loadSession() end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z INITIAL_SESSION callback id 47e5950c-afd1-4d20-8b62-73a16fbc0962 error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+ [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z #_useSession end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z #_useSession end
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@50 (2.57.0) 2023-11-17T18:01:09.431Z #_acquireLock end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.753Z #_acquireLock begin -1
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.754Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.754Z #_initialize() begin is PKCE flow false
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.754Z #_recoverAndRefresh() begin
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.755Z #onAuthStateChange() registered callback with id 97ee14aa-b84e-4373-ae24-36aef63c734d
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.756Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.757Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.757Z #_recoverAndRefresh() end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.757Z #_handleVisibilityChange()
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.757Z #_initialize() end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.757Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.757Z #_acquireLock end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.757Z #_acquireLock begin -1
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.757Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.757Z #_useSession begin
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.757Z #__loadSession() begin
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.759Z #_acquireLock begin -1
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.759Z #_acquireLock end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.759Z #_useSession begin
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.759Z #__loadSession() begin
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.759Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.759Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.759Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.759Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.759Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.760Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.761Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z #_refreshAccessToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z #_callRefreshToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z #__loadSession() end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z #__loadSession() end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z INITIAL_SESSION callback id 97ee14aa-b84e-4373-ae24-36aef63c734d error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+ [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z #_useSession end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z #_useSession end
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@52 (2.57.0) 2023-11-17T18:01:09.783Z #_acquireLock end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.861Z #_acquireLock begin -1
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.861Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.861Z #_initialize() begin is PKCE flow false
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.861Z #_recoverAndRefresh() begin
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.861Z #onAuthStateChange() registered callback with id e0d3612d-fc4c-464e-8d8e-4d531569ac8e
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.862Z #_recoverAndRefresh() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.886Z #_recoverAndRefresh() session has expired with margin of 10s
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_recoverAndRefresh() end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_handleVisibilityChange()
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_initialize() end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_acquireLock end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_acquireLock begin -1
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_acquireLock lock acquired for storage key sb-127-auth-token
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_useSession begin
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #__loadSession() begin
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_acquireLock begin -1
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_acquireLock end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #_useSession begin
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.887Z #__loadSession() begin
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.888Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.888Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.889Z #_callRefreshToken(gFtGZ...) begin
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.889Z #_refreshAccessToken(gFtGZ...) begin
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.889Z #getSession() session from storage {
+  access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzAwMjQzNjc1LCJpYXQiOjE3MDAyNDM2MTUsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6NTQzMjEvYXV0aC92MSIsInN1YiI6IjVlMmE0Yjk2LThmMzAtNDA1My04ZGUzLTBjNTViNDQ5N2QzZCIsImVtYWlsIjoiaW1vd25iZXkyQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzAwMjQzNjE1fV0sInNlc3Npb25faWQiOiJjZjJhYTM2YS0xMTU3LTRmOTYtYmY2MC1iNTA5ZmQyMmNmODQifQ.gN1BS3eQ0TLzDGV-oDkMiOAb20yrPdSlPGTuJxQXOhE',
+  token_type: 'bearer',
+  expires_in: 60,
+  expires_at: 1700243675,
+  refresh_token: 'gFtGZNCLW5niPUZgPRsXXQ',
+  user: {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  aud: 'authenticated',
+  role: 'authenticated',
+  email: 'imownbey2@gmail.com',
+  email_confirmed_at: '2023-11-17T17:47:06.726782Z',
+  phone: '',
+  confirmed_at: '2023-11-17T17:47:06.726782Z',
+  last_sign_in_at: '2023-11-17T17:53:35.367893417Z',
+  app_metadata: { provider: 'email', providers: [ 'email' ] },
+  user_metadata: {},
+  identities: [
+  {
+  id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  user_id: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d',
+  identity_data: {
+  email: 'imownbey2@gmail.com',
+  sub: '5e2a4b96-8f30-4053-8de3-0c55b4497d3d'
+},
+  provider: 'email',
+  last_sign_in_at: '2023-11-17T17:47:06.724022Z',
+  created_at: '2023-11-17T17:47:06.724039Z',
+  updated_at: '2023-11-17T17:47:06.724039Z'
+}
+],
+  created_at: '2023-11-17T17:47:06.71468Z',
+  updated_at: '2023-11-17T17:53:35.375862Z'
+}
+}
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.890Z #__loadSession() session has expired expires_at 1700243675
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.890Z #_refreshAccessToken(gFtGZ...) refreshing attempt 0
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.969Z #_refreshAccessToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.969Z #_refreshAccessToken(gFtGZ...) end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.969Z #_callRefreshToken(gFtGZ...) error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.969Z #_callRefreshToken(gFtGZ...) end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.969Z #__loadSession() end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.969Z #__loadSession() end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.970Z INITIAL_SESSION callback id e0d3612d-fc4c-464e-8d8e-4d531569ac8e error  [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+ [AuthApiError: Invalid Refresh Token: Already Used] {
+  __isAuthError: true,
+  name: 'AuthApiError',
+  status: 400
+}
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.970Z #_useSession end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.970Z #_useSession end
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.970Z #_acquireLock lock released for storage key sb-127-auth-token
+GoTrueClient@53 (2.57.0) 2023-11-17T18:01:28.970Z #_acquireLock end
+
